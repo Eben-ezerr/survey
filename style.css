@@ -1,0 +1,8 @@
+::placeholder {
+    font-style: italic;
+    font-size: 1em;
+    color: mintcream;
+    background: thistle;
+    padding: 5px;
+  }
+  #submit{type = submit}

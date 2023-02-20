@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+<body>
+  <h1 id="title"> My new survey form admission </h1>
+  <h4>
+    <p id="description"> Please describe your personal information
+      </p>
+ </h4>
+ <div id = "contact">
+<form id="survey-form">
+<label for "name" id = "name-label" > Name </label>
+<input type="text"
+id="name"
+name="name"placeholder="Your Name Here"
+required />
+<br>
+<label for = "email" id = "email-label" > Email </label>
+<input type="email"
+id="email"
+placeholder="Your Email Here"
+required />
+<br>
+<label for="ID" id = "number-label">Enter your ID:</label>
+<input type="number" id="number" name="ID"
+placeholder="Your number Here"
+required
+min = "1" max = "1000"
+/>
+<br>
+<label for="race"> Race:</label>
+<select name="race" id="dropdown"> 
+  <option value="African  American">African American</option> 
+  <option value="Caucasian">Caucasian</option>
+  <option value="Hispanic">Hispanic</option>
+</select>
+<br>
+<br> 
+<input type="radio" id="Only English" name="Languages" value="English">
+<label for="English">English</label>
+<input type="radio" id="Bilingual" name="Languages" value="Bilingual">
+<label for="Bilingual">Bilingual</label> <br>
+<br>
+<input type="checkbox" id="Employed" name="Employed" value="Employed">
+<label for="Employed"> Employed </label><br>
+<input type="checkbox" id="Unemployed" name="Unemployed" value="Unemployed">
+<label for="Unemployed"> Unemployed </label><br>
+<label for=“description”> Community Experience </label>
+<Textarea
+	id=“Description”
+	name = “Description”
+	Placeholder = “Description”
+	required
+></textarea>
+<button id = "submit" type="submit">Click Me!</button>
+</form>
+</div>
+</body>
+</html>
